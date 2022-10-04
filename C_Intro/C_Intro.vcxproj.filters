@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exe1.c">
+    <ClCompile Include="ConvertToKM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum2Inputs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
