@@ -27,5 +27,8 @@
     <ClCompile Include="IncDec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OperatorsExmaple.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

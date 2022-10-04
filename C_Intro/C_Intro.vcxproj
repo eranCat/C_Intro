@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="ConvertToKM.c" />
     <ClCompile Include="IncDec.c" />
+    <ClCompile Include="OperatorsExmaple.c" />
     <ClCompile Include="PrinterCodeId.c" />
     <ClCompile Include="Sum2Inputs.c" />
   </ItemGroup>
