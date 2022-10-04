@@ -19,12 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CheckMax.c" />
     <ClCompile Include="ConvertToKM.c" />
     <ClCompile Include="If_Even.c" />
     <ClCompile Include="IncDec.c" />
+    <ClCompile Include="LeapYearCheck.c" />
     <ClCompile Include="OperatorsExmaple.c" />
     <ClCompile Include="PrinterCodeId.c" />
-    <ClCompile Include="PrintMax.c" />
     <ClCompile Include="Sum2Inputs.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -33,7 +33,10 @@
     <ClCompile Include="If_Even.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PrintMax.c">
+    <ClCompile Include="LeapYearCheck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckMax.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
