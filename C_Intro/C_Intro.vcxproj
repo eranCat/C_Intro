@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CheckMax.c" />
+    <ClCompile Include="ConvertCharGrade.c" />
     <ClCompile Include="ConvertToKM.c" />
     <ClCompile Include="If_Even.c" />
     <ClCompile Include="IncDec.c" />
