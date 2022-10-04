@@ -21,5 +21,8 @@
     <ClCompile Include="Sum2Inputs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PrinterCodeId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
