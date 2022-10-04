@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConvertToKM.c" />
+    <ClCompile Include="If_Even.c" />
     <ClCompile Include="IncDec.c" />
     <ClCompile Include="OperatorsExmaple.c" />
     <ClCompile Include="PrinterCodeId.c" />

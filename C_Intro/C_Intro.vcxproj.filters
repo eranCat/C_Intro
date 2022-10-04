@@ -30,5 +30,8 @@
     <ClCompile Include="OperatorsExmaple.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="If_Even.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
