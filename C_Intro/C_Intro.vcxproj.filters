@@ -24,5 +24,8 @@
     <ClCompile Include="PrinterCodeId.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IncDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
