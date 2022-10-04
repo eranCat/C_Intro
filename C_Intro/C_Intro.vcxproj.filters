@@ -42,5 +42,8 @@
     <ClCompile Include="ConvertCharGrade.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CalcOperandsSwitch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
