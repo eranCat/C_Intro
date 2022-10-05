@@ -23,6 +23,7 @@
     <ClCompile Include="CheckMax.c" />
     <ClCompile Include="ConvertCharGrade.c" />
     <ClCompile Include="ConvertToKM.c" />
+    <ClCompile Include="ExerisicesLoops.c" />
     <ClCompile Include="Factorial.c" />
     <ClCompile Include="FindMin.c" />
     <ClCompile Include="GradesBreakFor.c" />
@@ -38,6 +39,9 @@
     <ClCompile Include="Sum2Inputs.c" />
     <ClCompile Include="SumNumsNFor.c" />
     <ClCompile Include="WhileGrades.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExerisicesLoops.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

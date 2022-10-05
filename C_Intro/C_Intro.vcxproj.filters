@@ -72,5 +72,13 @@
     <ClCompile Include="GradesBreakFor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ExerisicesLoops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExerisicesLoops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
