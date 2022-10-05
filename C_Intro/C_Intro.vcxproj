@@ -24,6 +24,7 @@
     <ClCompile Include="ConvertCharGrade.c" />
     <ClCompile Include="ConvertToKM.c" />
     <ClCompile Include="Factorial.c" />
+    <ClCompile Include="FindMin.c" />
     <ClCompile Include="If_Even.c" />
     <ClCompile Include="IncDec.c" />
     <ClCompile Include="LeapYearCheck.c" />
