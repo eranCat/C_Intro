@@ -72,7 +72,7 @@
     <ClCompile Include="GradesBreakFor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExerisicesLoops.c">
+    <ClCompile Include="ExerisiceSequences.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

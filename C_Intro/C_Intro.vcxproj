@@ -23,7 +23,7 @@
     <ClCompile Include="CheckMax.c" />
     <ClCompile Include="ConvertCharGrade.c" />
     <ClCompile Include="ConvertToKM.c" />
-    <ClCompile Include="ExerisicesLoops.c" />
+    <ClCompile Include="ExerisiceSequences.c" />
     <ClCompile Include="Factorial.c" />
     <ClCompile Include="FindMin.c" />
     <ClCompile Include="GradesBreakFor.c" />
