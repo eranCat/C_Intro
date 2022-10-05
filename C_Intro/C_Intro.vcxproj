@@ -41,6 +41,7 @@
     <ClCompile Include="power.c" />
     <ClCompile Include="PrinterCodeId.c" />
     <ClCompile Include="ReveresedFor.c" />
+    <ClCompile Include="ReverseNumRec.c" />
     <ClCompile Include="Sinus.c" />
     <ClCompile Include="SumDigits.c" />
     <ClCompile Include="Sum2Inputs.c" />
