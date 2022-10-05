@@ -84,6 +84,9 @@
     <ClCompile Include="GCD.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PerfectNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExerisicesLoops.h">

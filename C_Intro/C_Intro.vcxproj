@@ -34,6 +34,7 @@
     <ClCompile Include="MultiBoard.c" />
     <ClCompile Include="NestedFor.c" />
     <ClCompile Include="OperatorsExmaple.c" />
+    <ClCompile Include="PerfectNumber.c" />
     <ClCompile Include="power.c" />
     <ClCompile Include="PrinterCodeId.c" />
     <ClCompile Include="ReveresedFor.c" />
