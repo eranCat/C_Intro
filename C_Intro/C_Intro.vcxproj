@@ -30,6 +30,7 @@
     <ClCompile Include="OperatorsExmaple.c" />
     <ClCompile Include="PrinterCodeId.c" />
     <ClCompile Include="Sum2Inputs.c" />
+    <ClCompile Include="WhileGrades.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
