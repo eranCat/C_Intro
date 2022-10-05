@@ -69,5 +69,8 @@
     <ClCompile Include="MultiBoard.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GradesBreakFor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
