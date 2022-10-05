@@ -90,6 +90,9 @@
     <ClCompile Include="FactorialRecursive.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sumPowersRecursive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExerisicesLoops.h">

@@ -43,6 +43,7 @@
     <ClCompile Include="SumDigits.c" />
     <ClCompile Include="Sum2Inputs.c" />
     <ClCompile Include="SumNumsNFor.c" />
+    <ClCompile Include="sumPowersRecursive.c" />
     <ClCompile Include="WhileGrades.c" />
   </ItemGroup>
   <ItemGroup>
