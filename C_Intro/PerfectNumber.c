@@ -2,6 +2,45 @@
 
 typedef enum { false, true } bool;
 
+int round(double d) {
+	return d >= 0 ? (int)(d + .5) : (int)(d - .5);
+}
+
+int is_square_number(int n)
+{
+	int sq;
+	sq = round(sqrt(n));
+	if (n == sq * sq)
+		return sq;
+	else
+		return 0;
+}
+
+/*returns the sum of the smaller dividers*/
+int sumDividers(int n) {
+	if (n==1){
+		return 1;
+	}
+
+	int sum = 1,i;
+	if (is_square_number(n))
+	{
+		sum += round(sqrt(n));
+	}
+	for (i = 2; i*i <= n; i++)//i<=sqrt(n)
+	{
+		if (n % i == 0) {
+			sum += i+n/i;
+		}
+	}
+
+	if (i*i==n){
+		sum += i;
+	}
+
+	return sum;
+}
+
 /*Gets a number , and checks if it's perfect
 Perfect number - natural number which equals the sum of all of its smaller dividers
 6 = 1+2+3
@@ -13,37 +52,20 @@ bool isPerfect(int n) {
 	return (bool)(n == sum);
 }
 
-/*returns the sum of the smaller dividers*/
-int sumDividers(int n) {
-	if (n==1){
-		return 1;
-	}
-
-	int sum = 1;
-	for (int i = 2; i <= n/2; i++)
-	{
-		if (n % i == 0) {
-			sum += i;
-		}
-	}
-
-	return sum;
+void printIsPerfect(int num) {
+	if (isPerfect(num))
+		printf("%d is perfect\n", num);
+	else
+		printf("%d is not perfect\n", num);
 }
 
 void main() {
-	int num = 6;
-	printf("%d is perfect: %s\n", num,isPerfect(num)?"true":"false");
-	
-	num = 28;
-	printf("%d is perfect: %s\n", num,isPerfect(num)?"true":"false");
-	
-	num = 496;
-	printf("%d is perfect: %s\n", num,isPerfect(num)?"true":"false");
 
-	num = 8128;
-	printf("%d is perfect: %s\n", num,isPerfect(num)?"true":"false");
-	
-	num = 828;
-	printf("%d is perfect: %s\n", num,isPerfect(num)?"true":"false");
+	printIsPerfect(6);
+	printIsPerfect(28);
+	printIsPerfect(25);
+	printIsPerfect(496);
+	printIsPerfect(8128);
+	printIsPerfect(818);
 
 }
