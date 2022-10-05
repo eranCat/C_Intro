@@ -25,6 +25,7 @@
     <ClCompile Include="ConvertToKM.c" />
     <ClCompile Include="ExerisiceSequences.c" />
     <ClCompile Include="Factorial.c" />
+    <ClCompile Include="FactorialRecursive.c" />
     <ClCompile Include="FindMin.c" />
     <ClCompile Include="GCD.c" />
     <ClCompile Include="GradesBreakFor.c" />
