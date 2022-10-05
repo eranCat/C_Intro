@@ -63,5 +63,8 @@
     <ClCompile Include="FindMin.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NestedFor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
