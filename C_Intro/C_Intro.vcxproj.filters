@@ -78,6 +78,9 @@
     <ClCompile Include="power.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sinus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExerisicesLoops.h">
