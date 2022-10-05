@@ -29,6 +29,7 @@
     <ClCompile Include="LeapYearCheck.c" />
     <ClCompile Include="OperatorsExmaple.c" />
     <ClCompile Include="PrinterCodeId.c" />
+    <ClCompile Include="ReveresedFor.c" />
     <ClCompile Include="Sum2Inputs.c" />
     <ClCompile Include="WhileGrades.c" />
   </ItemGroup>

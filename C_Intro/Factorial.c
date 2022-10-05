@@ -11,6 +11,15 @@
 //	printf("The result is % d", result);
 //}
 
+//void main()
+//{
+//	int i;
+//	long result = 1;
+//	for (i = 2; i <= 10; i++)
+//		result *= i;
+//	printf("The result is % ld ", result);
+//}
+
 /*The program calculates 2^10*/
 //void main() {
 //	int i = 1, result = 1;
@@ -20,4 +29,12 @@
 //		i++;
 //	}
 //	printf("The result is % d", result);
+//}
+
+//void main()
+//{
+//	int i, result = 1;
+//	for (i = 1; i <= 10; i++)
+//		result *= 2;
+//	printf("The result is : % d", result);
 //}
