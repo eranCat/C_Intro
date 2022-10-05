@@ -33,6 +33,7 @@
     <ClCompile Include="MultiBoard.c" />
     <ClCompile Include="NestedFor.c" />
     <ClCompile Include="OperatorsExmaple.c" />
+    <ClCompile Include="power.c" />
     <ClCompile Include="PrinterCodeId.c" />
     <ClCompile Include="ReveresedFor.c" />
     <ClCompile Include="SumDigits.c" />
