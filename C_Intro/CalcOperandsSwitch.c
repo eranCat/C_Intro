@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+//for scanning a char, there's an issue with "%c" , so we need to put a space like so " %c"
+//https://stackoverflow.com/questions/13542055/how-to-do-scanf-for-single-char-in-c
+
 
 void main() {
 	double x, y;
@@ -9,13 +12,10 @@ void main() {
 	scanf_s("%lf%lf", &x, &y);
 
 	//flushall();//clear console
-	//_flushall();//clear console
+	_flushall();//clear console
 
 	printf("enter operator\n");
 	scanf_s(" %c", &op);// op=getchar();
-
-	//for scanning a char, there's an issue with "%c" , so we need to put a space like so " %c"
-	//https://stackoverflow.com/questions/13542055/how-to-do-scanf-for-single-char-in-c
 
 	switch (op)
 	{
