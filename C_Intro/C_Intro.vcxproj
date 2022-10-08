@@ -42,6 +42,7 @@
     <ClCompile Include="PrinterCodeId.c" />
     <ClCompile Include="ReveresedFor.c" />
     <ClCompile Include="ReverseNumRec.c" />
+    <ClCompile Include="ReverseWord.c" />
     <ClCompile Include="Sinus.c" />
     <ClCompile Include="SumDigits.c" />
     <ClCompile Include="Sum2Inputs.c" />
@@ -120,7 +121,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
