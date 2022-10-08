@@ -2,15 +2,16 @@
 
 void reverese() {
 	char sc;//scanned char
-	scanf("%c", &sc);
+	//scanf("%c", &sc);
+	sc = getchar();
 
-	if (sc == '*') {
-		return;
+	if (sc != '*') {
+		reverese(sc);
+
+		//printf("%c",sc);
+		putchar(sc);
 	}
 	
-	reverese(sc);
-
-	printf("%c",sc);
 }
 
 void main() {
