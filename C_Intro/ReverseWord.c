@@ -1,17 +1,18 @@
 #include<stdio.h>
 
-void reverese(char c) {
-	if (c == '*') {
-		//printf("\n");
-		return;
-	}
+void reverese() {
 	char sc;//scanned char
 	scanf("%c", &sc);
+
+	if (sc == '*') {
+		return;
+	}
+	
 	reverese(sc);
 
-	printf("%c",c);
+	printf("%c",sc);
 }
 
 void main() {
-	reverese(0);
+	reverese();
 }
