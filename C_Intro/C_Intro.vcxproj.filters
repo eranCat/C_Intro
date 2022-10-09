@@ -114,5 +114,8 @@
     <ClCompile Include="ArrayExample.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArraysFunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

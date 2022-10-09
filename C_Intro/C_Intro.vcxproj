@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayExample.c" />
+    <ClCompile Include="ArraysFunc.c" />
     <ClCompile Include="CalcOperandsSwitch.c" />
     <ClCompile Include="CheckMax.c" />
     <ClCompile Include="ConvertCharGrade.c" />
