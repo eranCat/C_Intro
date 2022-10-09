@@ -111,5 +111,8 @@
     <ClCompile Include="MinMaxOfInput.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayExample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
