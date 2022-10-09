@@ -5,20 +5,25 @@ void inputArray(int a[], int size);
 int sumArr(int* a, int length);
 int findMin(int a[], int length);//O(n-1)
 int findMin2(int a[], int n);//O(n-1)
+int minRecursive(int* a, int n);
 
 void main() {
-	int a1[3];
-	inputArray(a1, 3);
-	printIntArr(a1, 3);
+	int arr[3];
+	inputArray(arr, 3);
+	printIntArr(arr, 3);
 
-	int sum = sumArr(a1,3);
+	int sum = sumArr(arr,3);
 	printf("Sum: %d\n", sum);
 
-	int min = findMin(a1, 3);
+	int min = findMin(arr, 3);
 	printf("Min %d\n", min);
 
-	min = findMin2(a1,3);
+	min = findMin2(arr,3);
 	printf("Min (high low) %d\n", min);
+
+	min = minRecursive(arr, 3);
+	printf("Min Rec' %d\n", min);
+
 }
 
 void printIntArr(int a[], int length) {
@@ -73,4 +78,15 @@ int findMin2(int a[], int n) {
 		}
 	}
 	return *low;
+}
+
+int minRecursive(int* a, int n) {
+	if (n == 1)
+		return a[0];
+
+	int min = minRecursive(a, n - 1);//find min of a smaller array
+	if (a[n - 1] < min)//if the last cell of the current array is smaller the the min of the array before it
+		return a[n - 1];//return last cell
+
+	return min;
 }
