@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <climits>
 
 void printIntArr(int a[], int length);
 void inputArray(int a[], int size);
@@ -45,8 +44,8 @@ int sumArr(int* a, int length) {
 }
 
 int findMin(int a[], int length) {
-	int min = INT_MAX;
-	for (int i = 0; i < length; i++)
+	int min = a[0];
+	for (int i = 1; i < length; i++)
 	{
 		if (a[i]< min)
 		{
