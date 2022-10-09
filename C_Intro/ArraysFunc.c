@@ -1,4 +1,22 @@
 #include<stdio.h>
+#include <climits>
+
+void printIntArr(int a[], int length);
+void inputArray(int a[], int size);
+int sumArr(int* a, int length);
+int findMin(int a[], int length);
+
+void main() {
+	int a1[3];
+	inputArray(a1, 3);
+	printIntArr(a1, 3);
+
+	int sum = sumArr(a1,3);
+	printf("Sum: %d\n", sum);
+
+	int min = findMin(a1, 3);
+	printf("Min %d\n", min);
+}
 
 void printIntArr(int a[], int length) {
 	printf("[ ");
@@ -26,11 +44,14 @@ int sumArr(int* a, int length) {
 	return sum;
 }
 
-void main() {
-	int a1[3];
-	inputArray(a1, 3);
-	printIntArr(a1, 3);
-
-	int sum = sumArr(a1,3);
-	printf("Sum: %d\n", sum);
+int findMin(int a[], int length) {
+	int min = INT_MAX;
+	for (int i = 0; i < length; i++)
+	{
+		if (a[i]< min)
+		{
+			min = a[i];
+		}
+	}
+	return min;
 }
