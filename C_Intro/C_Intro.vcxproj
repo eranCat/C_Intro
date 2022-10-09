@@ -34,6 +34,7 @@
     <ClCompile Include="If_Even.c" />
     <ClCompile Include="IncDec.c" />
     <ClCompile Include="LeapYearCheck.c" />
+    <ClCompile Include="MinMaxOfInput.c" />
     <ClCompile Include="MultiBoard.c" />
     <ClCompile Include="NestedFor.c" />
     <ClCompile Include="OperatorsExmaple.c" />
@@ -50,9 +51,6 @@
     <ClCompile Include="sumPowersRecursive.c" />
     <ClCompile Include="SwapIntPtr.c" />
     <ClCompile Include="WhileGrades.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ExerisicesLoops.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -108,10 +108,8 @@
     <ClCompile Include="SwapIntPtr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ExerisicesLoops.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="MinMaxOfInput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
