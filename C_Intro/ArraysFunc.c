@@ -3,7 +3,8 @@
 void printIntArr(int a[], int length);
 void inputArray(int a[], int size);
 int sumArr(int* a, int length);
-int findMin(int a[], int length);
+int findMin(int a[], int length);//O(n-1)
+int findMin2(int a[], int low, int high);//O(n-1)
 
 void main() {
 	int a1[3];
@@ -15,6 +16,9 @@ void main() {
 
 	int min = findMin(a1, 3);
 	printf("Min %d\n", min);
+
+	min = findMin2(a1, 0, 3 - 1);
+	printf("Min (high low) %d\n", min);
 }
 
 void printIntArr(int a[], int length) {
@@ -53,4 +57,17 @@ int findMin(int a[], int length) {
 		}
 	}
 	return min;
+}
+
+/* low -> [4,1,6,3] <- high */
+int findMin2(int a[], int low,int high) {
+	while (low < high) {
+		if (a[low] < a[high]) {
+			high--;
+		}
+		else {
+			low++;
+		}
+	}
+	return a[low];
 }
