@@ -1,12 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>//library for dynamic memory allocation
 
-void swap(int* a, int* b) {
-	int tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
-
 /* Function to sort an array using insertion sort*/
 void insertionSort(int arr[], int n)
 {
@@ -30,7 +24,7 @@ void insertionSort(int arr[], int n)
 which isn't in it.
 Example:
 [9,843,1,3,55,4,200,10,7,2] --> missing 5
-[1,2,3,4, - , 7, 9, 10 , 55 , 200,843 ] 
+Sorted - [1,2,3,4,#missing#,7,9,10,55,200,843]
 */
 int findMinNatural(int* a, int n) {
 	insertionSort(a, n);
@@ -41,17 +35,16 @@ int findMinNatural(int* a, int n) {
 	}
 	printf("\n");
 
-	int minNatural = 1;
-	int diff;
-	for (int i = 0; i < n-1; i++)
+	int diffNums;
+	for (int i = 0; i < n - 1; i++)
 	{
-		diff = a[i + 1] - a[i];
-		if (diff > 1 ) {
+		diffNums = a[i + 1] - a[i];
+		if (diffNums > 1) {
 			return a[i] + 1;
 		}
 	}
 
-	return minNatural;
+	return 1;
 }
 
 void main() {
