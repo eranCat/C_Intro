@@ -25,6 +25,7 @@
     <ClCompile Include="CheckMax.c" />
     <ClCompile Include="ConvertCharGrade.c" />
     <ClCompile Include="ConvertToKM.c" />
+    <ClCompile Include="DynamicArr.c" />
     <ClCompile Include="ExerisiceSequences.c" />
     <ClCompile Include="Factorial.c" />
     <ClCompile Include="FactorialRecursive.c" />
